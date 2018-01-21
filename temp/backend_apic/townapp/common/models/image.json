@@ -1,0 +1,31 @@
+{
+  "name": "Image",
+  "plural": "Images",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "data": {
+      "type": "buffer",
+      "required": false
+    },
+    "imageId": {
+      "type": "number",
+      "required": true
+    },
+    "custId": {
+      "type": "number",
+      "required": false
+    },
+    "sourceId": {
+      "type": "number",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

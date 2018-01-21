@@ -1,0 +1,12 @@
+{
+  "mongodbds": {
+    "host": "cluster0-shard-00-00-q9mbi.mongodb.net",
+    "port": 27017,
+    "url": "mongodb://admin:admin.143@cluster0-shard-00-00-q9mbi.mongodb.net:27017,cluster0-shard-00-01-q9mbi.mongodb.net:27017,cluster0-shard-00-02-q9mbi.mongodb.net:27017/townapp?replicaSet=Cluster0-shard-0&ssl=true&authSource=admin",
+    "database": "townapp",
+    "password": "admin.143",
+    "name": "mongodbds",
+    "connector": "mongodb",
+    "user": "admin"
+  }
+}

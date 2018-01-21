@@ -1,0 +1,70 @@
+{
+  "name": "Customer",
+  "plural": "Customers",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "customerId": {
+      "type": "number",
+      "id": true,
+      "required": true,
+      "isArray": false
+    },
+    "firstName": {
+      "type": "string",
+      "required": true
+    },
+    "lastName": {
+      "type": "string",
+      "required": true
+    },
+    "dob": {
+      "type": "date",
+      "required": false
+    },
+    "mobileNumbers": {
+      "type": [
+        "string"
+      ],
+      "required": false,
+      "isArray": true
+    },
+    "emailIds": {
+      "type": [
+        "string"
+      ],
+      "required": false,
+      "isArray": true
+    },
+    "professions": {
+      "type": [
+        "string"
+      ],
+      "required": false,
+      "isArray": true
+    },
+    "aadharNumber": {
+      "type": "string",
+      "required": false
+    },
+    "searchTags": {
+      "type": "string",
+      "required": false
+    },
+    "shortDescription": {
+      "type": "string",
+      "required": false
+    },
+    "longDescription": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,80 @@
+{
+  "name": "realestateAsset",
+  "plural": "realestateAssets",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "video": {
+      "type": [
+        "buffer"
+      ],
+      "required": false,
+      "isArray": true
+    },
+    "assetId": {
+      "type": "number",
+      "required": false
+    },
+    "buyPrice": {
+      "type": "number",
+      "required": false
+    },
+    "currentMarketValue": {
+      "type": [
+        "object"
+      ],
+      "required": false,
+      "isArray": true
+    },
+    "customerId": {
+      "type": "number",
+      "required": true
+    },
+    "dimensions": {
+      "type": [
+        "object"
+      ],
+      "required": false,
+      "isArray": true
+    },
+    "location": {
+      "type": "object",
+      "required": false
+    },
+    "longDescription": {
+      "type": "string",
+      "required": false
+    },
+    "searchTags": {
+      "type": "string",
+      "required": false
+    },
+    "sellPrice": {
+      "type": "number",
+      "required": false
+    },
+    "shortDescription": {
+      "type": "string",
+      "required": false
+    },
+    "type": {
+      "type": "string",
+      "required": false
+    },
+    "voiceMessage": {
+      "type": "number",
+      "required": false
+    },
+    "wantToSell": {
+      "type": "boolean",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
